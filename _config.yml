@@ -19,7 +19,7 @@ footer_text: >
 remote-theme: sylhare/Type-on-Strap
 
 # Blog
-excerpt: true
+excerpt: false
 post_navigation: true
 color_image: /assets/img/lineart.png
 
@@ -31,12 +31,12 @@ katex: true
 mermaid: true
 
 share_buttons:
-    facebook: true
+    facebook: 
     twitter: true
     tumblr:
     pinterest:
-    pocket:
-    reddit: true
+    pocket: true
+    reddit: 
     linkedin:
     wordpress:
     email: true
