@@ -9,43 +9,52 @@ avatar: #assets/img/avatar.jpg
 favicon: #assets/favicon.ico
 color_theme: dark
 
-# Header and footer text
-header_text: It's a nerds world
-header_feature_image: assets/img/pc_hardware.jpeg
-footer_text: >
-  A loose collection of thoughts around computer and nerd topics 
+defaults:
+  - scope:
+      path: "" # an empty string here means all necessary files are in the project
+    values:
+      image: assets/img/background/kris-schlaeft.jpg
 
-# Theme config
-remote-theme: sylhare/Type-on-Strap
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
 
-# Blog
-excerpt: false
-post_navigation: true
-color_image: /assets/img/lineart.png
-
-# PAGINATION
-paginate: 10
-paginate_path: "/blog/page:num"
-
-katex: true
-mermaid: true
-
-share_buttons:
-    facebook: 
-    twitter: true
-    tumblr:
-    pinterest:
-    pocket: true
-    reddit: 
-    linkedin:
-    wordpress:
-    email: true
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
+  # Header and footer text
+  header_text: It's a nerds world
+  header_feature_image: assets/img/pc_hardware.jpeg
+  footer_text: >
+    A loose collection of thoughts around computer and nerd topics 
+  
+  # Theme config
+  remote-theme: sylhare/Type-on-Strap
+  
+  # Blog
+  excerpt: false
+  post_navigation: true
+  color_image: /assets/img/lineart.png
+  
+  # PAGINATION
+  paginate: 10
+  paginate_path: "/blog/page:num"
+  
+  katex: true
+  mermaid: true
+  
+  share_buttons:
+      facebook: 
+      twitter: true
+      tumblr:
+      pinterest:
+      pocket: true
+      reddit: 
+      linkedin:
+      wordpress:
+      email: true
+  
+  # PORTFOLIO
+  collections:
+    portfolio:
+      output: true
+      permalink: /:collection/:name
 
 # BUILD SETTINGS
 markdown: kramdown
