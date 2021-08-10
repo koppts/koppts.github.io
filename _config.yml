@@ -5,8 +5,7 @@ url: "https://koppts.github.io" # the base hostname & protocol for your site, e.
 # Meta Info
 title: It's a nerds world
 description: #todo add desc
-avatar: assets/img/aurora.jpg
-favicon: #assets/favicon.ico
+
 color_theme: auto
 
 defaults:
@@ -17,6 +16,9 @@ defaults:
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
+
+  avatar: assets/img/aurora.jpg
+  favicon: #assets/favicon.ico
 
   # Header and footer text
   header_text: It's a nerds world
