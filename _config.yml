@@ -13,7 +13,7 @@ favicon: #assets/favicon.ico
 
 # Header and footer text
 header_text: It's a nerds world
-header_feature_image: assets/img/pc_hardware.jpg
+header_feature_image: assets/img/pc_hardware.jpeg
 footer_text: >
   A loose collection of thoughts around computer and nerd topics 
 
