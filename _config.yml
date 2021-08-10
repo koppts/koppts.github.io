@@ -12,6 +12,7 @@ twitter_username: koppts
 github_username:  koppts
 
 # Theme config
+theme: type-on-strap
 remote-theme: sylhare/Type-on-Strap
 plugins:
   - jekyll-feed
