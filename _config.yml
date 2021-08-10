@@ -41,6 +41,31 @@ theme_settings:
   katex: true
   mermaid: true
   
+  # Icons
+  rss: true  # Make sure you created a feed.xml with feed.xml layout
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: 
+  instagram:
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  reddit: 
+  soundcloud:
+  stack_overflow:
+  stack_exchange:  # Full URL
+  steam: 
+  tumblr:
+  twitter: "koppts"
+  vimeo:
+  wordpress:
+  youtube:
+
   share_buttons:
       facebook: 
       twitter: true
@@ -57,6 +82,13 @@ theme_settings:
     portfolio:
       output: true
       permalink: /:collection/:name
+
+authors:
+  koppts: # author-id
+    name: "Thomas Kopp"
+    avatar: "assets/img/aurora.jpg"
+    url: https://twitter.com/koppts
+
 
 # BUILD SETTINGS
 markdown: kramdown
