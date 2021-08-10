@@ -2,6 +2,7 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://koppts.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Meta Info
 title: Short title
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -22,9 +23,21 @@ plugins:
   - jekyll-feed
 
 # Blog
-excerpt: true # Or "truncate" (first 250 characters), "false" to disable
+excerpt: truncate
 post_navigation: true
 color_image: /assets/img/lineart.png 
+
+color_image: #/assets/img/lineart.png # In post when you set color
+
+# PAGINATION
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
 # Excludes
 exclude:
