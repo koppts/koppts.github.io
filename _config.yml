@@ -34,10 +34,6 @@ theme_settings:
   post_navigation: true
   color_image: /assets/img/lineart.png
   
-  # PAGINATION
-  paginate: 10
-  paginate_path: "/blog/page:num"
-  
   katex: true
   mermaid: true
   
@@ -76,7 +72,11 @@ theme_settings:
       linkedin:
       wordpress:
       email: true
-  
+
+# PAGINATION
+paginate: 10
+paginate_path: "/blog/page:num"
+
 authors:
   koppts: # author-id
     name: "Thomas Kopp"
