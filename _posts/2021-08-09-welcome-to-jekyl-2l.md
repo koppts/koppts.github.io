@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll 22!"
 author-id: koppts
 feature-img: assets/img/aurora.jpg
-date:   2021-08-09 21:54:42 +0200
+date:   2021-08-09 21:56:42 +0200
 tags: 
 - jekyll
 - update
