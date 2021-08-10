@@ -10,6 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 avatar: #assets/img/avatar.jpg
 favicon: #assets/favicon.ico
+color_theme: dark
 
 # Header and footer text
 header_text: It's a nerds world
@@ -23,15 +24,16 @@ plugins:
   - jekyll-feed
 
 # Blog
-excerpt: truncate
+excerpt: true
 post_navigation: true
-color_image: /assets/img/lineart.png 
-
-color_image: #/assets/img/lineart.png # In post when you set color
+color_image: /assets/img/lineart.png
 
 # PAGINATION
 paginate: 10
 paginate_path: "/blog/page:num"
+
+katex: true
+mermaid: true
 
 share_buttons:
     facebook: true
