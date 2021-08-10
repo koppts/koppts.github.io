@@ -5,15 +5,15 @@ url: "https://koppts.github.io" # the base hostname & protocol for your site, e.
 # Meta Info
 title: It's a nerds world
 description: #todo add desc
-avatar: #assets/img/avatar.jpg
+avatar: assets/img/aurora.jpg
 favicon: #assets/favicon.ico
-color_theme: dark
+color_theme: auto
 
 defaults:
   - scope:
       path: "" # an empty string here means all necessary files are in the project
     values:
-      image: assets/img/background/kris-schlaeft.jpg
+      image: #assets/img/
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
