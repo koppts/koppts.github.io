@@ -20,8 +20,6 @@ footer_text: >
 
 # Theme config
 remote-theme: sylhare/Type-on-Strap
-plugins:
-  - jekyll-feed
 
 # Blog
 excerpt: true
@@ -52,9 +50,16 @@ collections:
     output: true
     permalink: /:collection/:name
 
-# Excludes
-exclude:
-  - README.md
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea",
+          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
