@@ -78,10 +78,10 @@ theme_settings:
       email: true
   
   # PORTFOLIO
-  collections:
-    portfolio:
-      output: true
-      permalink: /:collection/:name
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
 authors:
   koppts: # author-id
