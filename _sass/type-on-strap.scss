@@ -1,13 +1,13 @@
 // base files
-@import 'base/variables.scss';
-@import 'base/global.scss';
-@import 'base/utility.scss';
+@import 'base/variables';
+@import 'base/global';
+@import 'base/utility';
 // externals
-@import 'external/font-awesome.scss';
-@import 'external/font-awesome/solid.scss';
+@import 'external/font-awesome-base';
+@import 'external/font-awesome/solid';
 // layout files
 @import 'layouts/posts';
-@import 'layouts/blog.scss';
+@import 'layouts/blog';
 @import 'layouts/page';
 @import 'layouts/tags';
 @import 'layouts/search';
