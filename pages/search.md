@@ -3,6 +3,6 @@ layout: search
 title: Search
 permalink: /search/
 subtitle: "What are you looking for?"
-#feature-img: "assets/img/background/meerschweinchen-sucht.jpg"
+feature-img: assets/img/aurora.jpg
 icon: "fa-search"
 ---
