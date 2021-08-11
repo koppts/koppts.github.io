@@ -1,18 +1,17 @@
-@import 'font-awesome/_animated';
-@import 'font-awesome/_core.scss';
-@import 'font-awesome/_icons.scss';
-@import 'font-awesome/_list.scss';
-@import 'font-awesome/_rotated-flipped.scss';
-@import 'font-awesome/_shims.scss';
-@import 'font-awesome/_variables.scss';
-@import 'font-awesome/fontawesome.scss';
-@import 'font-awesome/solid.scss';
-@import 'font-awesome/_bordered-pulled.scss';
-@import 'font-awesome/_fixed-width.scss';
-@import 'font-awesome/_larger.scss';
-@import 'font-awesome/_mixins.scss';
-@import 'font-awesome/_screen-reader.scss';
-@import 'font-awesome/_stacked.scss';
-@import 'font-awesome/brands.scss';
-@import 'font-awesome/regular.scss';
-@import 'font-awesome/v4-shims.scss';
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+ @import 'font-awesome/variables';
+ @import 'font-awesome/mixins';
+ @import 'font-awesome/core';
+ @import 'font-awesome/larger';
+ @import 'font-awesome/fixed-width';
+ @import 'font-awesome/list';
+ @import 'font-awesome/bordered-pulled';
+ @import 'font-awesome/animated';
+ @import 'font-awesome/rotated-flipped';
+ @import 'font-awesome/stacked';
+ @import 'font-awesome/icons';
+ @import 'font-awesome/screen-reader';
+ 
