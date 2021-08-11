@@ -46,7 +46,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: 
+  github: "koppts"
   instagram:
   keybase:
   linkedin:  # Full URL
@@ -73,15 +73,15 @@ theme_settings:
       wordpress:
       email: true
 
-str_follow_on: "Follow on"
-str_rss_follow: "Follow RSS feed"
-str_share_on: "Share on"
-str_add_to: "Add to"
-str_email: "Email"
-str_next_post: "Next post"
-str_previous_post: "Previous post"
-str_next_page: "Next"
-str_previous_page: "Previous"
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_share_on: "Share on"
+  str_add_to: "Add to"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Previous"
 
 # PAGINATION
 paginate: 10
