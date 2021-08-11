@@ -1,6 +1,12 @@
+// base files
 @import 'base/variables.scss';
 @import 'base/global.scss';
 @import 'base/utility.scss';
+// layout files
 @import 'layouts/posts';
 @import 'layouts/blog.scss';
+@import 'layouts/page';
+@import 'layouts/tags';
+@import 'layouts/search';
+// includes
 @import 'includes/navbar.scss';
