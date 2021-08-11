@@ -4,28 +4,28 @@
         {% if site.theme_settings.share_buttons.twitter %}
         <li>
             <a href="https://twitter.com/intent/tweet?source={{ page.url | absolute_url }}&text={{ page.title | url_encode }}%20%7C%20{{ site.title | url_encode }}:%20{{ page.url | absolute_url }}" target="_blank" title="{{ site.theme_settings.str_tweet }}">
-			<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+			<i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
 			<span class="sr-only">{{ site.theme_settings.str_tweet }}</span>
 		</a>
         </li>
         {% endif %} {% if site.theme_settings.share_buttons.pocket %}
         <li>
             <a href="https://getpocket.com/save?url={{ page.url | absolute_url }}&title={{ page.title | url_encode }}%20%7C%20{{ site.title | url_encode }}" target="_blank" title="{{ site.theme_settings.str_add_to }} Pocket">
-			<i class="fa fa fa-get-pocket fa-2x" aria-hidden="true"></i>
+			<i class="fab fa-get-pocket fa-2x" aria-hidden="true"></i>
 			<span class="sr-only">{{ site.theme_settings.str_add_to }} Pocket</span>
 		</a>
         </li>
         {% endif %} {% if site.theme_settings.share_buttons.linkedin %}
         <li>
             <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title | url_encode }}%20%7C%20{{ site.title | url_encode }}&summary=&source={{ page.url | absolute_url }}" target="_blank" title="{{ site.theme_settings.str_share_on }} LinkedIn">
-			<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+			<i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
 			<span class="sr-only">{{ site.theme_settings.str_share_on }} LinkedIn</span>
 		</a>
         </li>
         {% endif %}{% if site.theme_settings.share_buttons.email %}
         <li>
             <a href="mailto:?subject={{ page.title | url_encode }}%20%7C%20{{ site.title | url_encode }}&body=:%20{{ page.url | absolute_url }}" target="_blank" title="{{ site.theme_settings.str_email }}">
-			<i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+			<i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
 			<span class="sr-only">{{ site.theme_settings.str_email }}</span>
 		</a>
         </li>
