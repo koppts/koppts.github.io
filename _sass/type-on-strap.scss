@@ -3,7 +3,8 @@
 @import 'base/global.scss';
 @import 'base/utility.scss';
 // externals
-@import 'external/font-awesome';
+@import 'external/font-awesome.scss';
+@import 'external/font-awesome/solid.scss';
 // layout files
 @import 'layouts/posts';
 @import 'layouts/blog.scss';
